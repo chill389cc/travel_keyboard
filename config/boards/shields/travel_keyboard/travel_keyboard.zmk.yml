@@ -1,0 +1,9 @@
+file_format: "1"
+id: travel_keyboard
+name: Travel Keyboard
+type: shield
+url: https://github.com/chill389cc/zmk-config/config/boards/shields/travel_keyboard
+requires: [pro_micro]
+features:
+  - keys
+

@@ -1,0 +1,3 @@
+config SHIELD_TRAVEL_KEYBOARD
+    def_bool $(shields_list_contains,travel_keyboard)
+
