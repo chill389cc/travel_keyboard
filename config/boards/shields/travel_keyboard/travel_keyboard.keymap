@@ -15,7 +15,7 @@
             bindings
 		= <&macro_tap &kp C &kp A &kp L &kp E &kp B &kp A &kp H &kp I &kp L &kp L &kp N7> 
                 , <&macro_press &kp LSHFT>
-                , <&macro_tap &N2>
+                , <&macro_tap &kp N2>
 		, <&macro_release &kp LSHIFT>
 		, <&macro_tap &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>
 		;
