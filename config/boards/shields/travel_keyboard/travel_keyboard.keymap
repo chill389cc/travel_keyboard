@@ -13,9 +13,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-		= <&macro_tap &kp C &kp A &kp L &kp E &kp B &kp A &kp H &kp I &kp L &kp L &kp N7> 
-                , <&macro_press &kp LSHFT>
-                , <&macro_tap &kp N2>
+		= <&macro_tap &kp C &kp A &kp L &kp E &kp B &kp A &kp H &kp I &kp L &kp L &kp N7>
+		, <&macro_press &kp LSHFT>
+		, <&macro_tap &kp N2>
 		, <&macro_release &kp LSHIFT>
 		, <&macro_tap &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>
 		;
@@ -28,7 +28,7 @@
             bindings = <
     &kp Q     &kp W     &kp E    &kp R     &kp T       &kp Y      &kp U     &kp I     &kp O     &kp P     &kp DELETE &kp BSPC
     &kp A     &kp S     &kp D    &kp F     &kp G       &kp H      &kp J     &kp K     &kp L     &kp SEMI  &kp SQT    &kc ENTER
-    &kp LSHFT &kp Z     &kp X    &kp C     &kp V       &kp B      &kp N     &kp M     &kp COMMA &kp DOT   &kp FLSH   &kp RSHFT
+    &kp LSHFT &kp Z     &kp X    &kp C     &kp V       &kp B      &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH   &kp RSHFT
     &kp LCTRL &kp LGUI  &kp LALT &none &kp SPACE  &mo NUM_MODS  &kp SPACE   &kp RALT  &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT
             >;
         };
